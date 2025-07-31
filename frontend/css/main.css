@@ -1,0 +1,22 @@
+body {
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#no {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  background-color: #8c5e58;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+#no:hover {
+  background-color: #a87e78;
+}
